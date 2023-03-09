@@ -24,7 +24,7 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow.compat.v1 as tf
-import tensorflow.compat.v1.contrib.slim as slim
+import tensorflow.contrib.slim as slim
 
 # Inception-Resnet-A
 def block35(net, scale=1.0, activation_fn=tf.nn.relu, scope=None, reuse=None):
